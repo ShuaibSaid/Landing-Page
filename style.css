@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    min-height: 100vh;
 
 }
 
@@ -12,6 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
+    min-height: 100px;
 }
 
 a {
@@ -112,6 +114,7 @@ h2 {
     background-color: #E5E7EB;
     justify-content: center;
     align-items: center;
+    padding-top: 32px;
 }
 
 .quote {
@@ -127,4 +130,66 @@ h2 {
     font-weight: bolder;
     color: #1F2937;
     padding-left: 450px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.bmid {
+    background-color: #3882F6;
+    height: 150px;
+    width: 1000px;
+    display: flex;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.bmleft {
+    padding: 0;
+}
+
+.dontcare {
+    margin-top: 0;
+}
+
+.bmright {
+    margin-left: 100px;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+}
+
+.disagree {
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+}
+
+.ftext {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
